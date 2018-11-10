@@ -2,4 +2,7 @@
     <string name="app_name">Diaspora</string>
     <string name="CriarConta">Criar Conta</string>
     <string name="entrarComFacebok">Entrar com Facebook.</string>
+    <string name="DigiteSenha">Digite sua senha</string>
+    <string name="DigiteSeuLogin">Digite seu login</string>
+    <string name="BemVindo">Seja Bem \n Vind@</string>
 </resources>
