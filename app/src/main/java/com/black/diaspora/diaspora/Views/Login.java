@@ -1,17 +1,15 @@
-package com.black.diaspora.diaspora;
+package com.black.diaspora.diaspora.Views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.black.diaspora.diaspora.R;
+
+public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
     }
-
-    //TODO load user token here
-
-
 }
