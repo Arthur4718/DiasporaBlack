@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Diaspora</string>
+    <string name="CriarConta">Criar Conta</string>
+    <string name="entrarComFacebok">Entrar com Facebook.</string>
 </resources>
