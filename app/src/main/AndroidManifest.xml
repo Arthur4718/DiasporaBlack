@@ -21,8 +21,11 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Views.UserMainPage"
-            android:label="@string/title_activity_user_main_page"
-            android:theme="@style/AppTheme"></activity>
+            android:label=""
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            >
+        </activity>
     </application>
 
 </manifest>
