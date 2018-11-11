@@ -6,20 +6,32 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_perfil"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_person_black_24dp"
             android:title="@string/perfil"/>
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/nav_meus_anuncios"
+            android:icon="@drawable/ic_priority_high_black_24dp"
             android:title="@string/meus_ancuncios" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/nav_add_anuncios"
+            android:icon="@drawable/ic_add_alert_black_24dp"
             android:title="@string/adicionar_anuncios" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:id="@+id/nav_mensagens"
+            android:icon="@drawable/ic_textsms_black_24dp"
             android:title="@string/mensagens" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="@string/calendario" />
+        <item
+            android:id="@+id/nav_faturas"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="@string/faturas" />
+        <item
+            android:id="@+id/nav_compras"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/compras" />
     </group>
 
 
