@@ -21,7 +21,7 @@ public class UserMainPage extends AppCompatActivity
         setContentView(R.layout.activity_user_main_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("");
+
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
