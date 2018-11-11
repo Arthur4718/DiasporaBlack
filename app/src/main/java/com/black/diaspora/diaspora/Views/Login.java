@@ -1,5 +1,6 @@
 package com.black.diaspora.diaspora.Views;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,7 +25,10 @@ public class Login extends AppCompatActivity {
         btnCriarConta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Item Clicked", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "Item Clicked", Toast.LENGTH_SHORT).show();
+                Intent userMainPage = new Intent(getApplicationContext(), UserMainPage.class);
+                startActivity(userMainPage);
+
             }
         });
 
